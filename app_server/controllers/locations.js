@@ -3,7 +3,7 @@ var apiOptions = {
   server : "http://localhost:3000"
 };
 if (process.env.NODE_ENV === 'production') {
-  apiOptions.server = "http://mean97386.azurewebsites.net/";
+  apiOptions.server = "http://mean97386.azurewebsites.net";
 }
 
 var _isNumeric = function (n) {
@@ -76,9 +76,9 @@ module.exports.homelist = function(req, res){
     method : "GET",
     json : {},
     qs : {
-      lng : -0.7992599,
-      lat : 51.378091,
-      maxDistance : 20
+      lng : -123.263129,
+      lat : 44.558420,
+      maxDistance : 5000
     }
   };
   request(
