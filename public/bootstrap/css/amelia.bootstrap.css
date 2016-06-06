@@ -1,3 +1,7 @@
+.navbar-main{
+  background-color: #1A33D6;
+}
+
 @import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
 
 /*!
@@ -306,7 +310,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #ffffff;
-  background-color: #108a93;
+  background-color: #D61AD6;
 }
 
 input,
